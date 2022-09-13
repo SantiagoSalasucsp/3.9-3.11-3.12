@@ -1,0 +1,22 @@
+#include <string>
+
+class fecha{
+  private:
+    int día;
+    int mes;
+    int año;
+
+  public:
+    fecha(int,int,int);
+
+};
+fecha::fecha(int _día,int _mes,int _año);
+
+if (mes >12 || mes <=0)
+  {mes = 1}
+cout<<día<<"/"<<mes<<"/"<<año<<endl;
+
+
+
+
+}
