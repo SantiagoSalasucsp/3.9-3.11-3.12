@@ -1,0 +1,20 @@
+#include <iostream>
+using namespace std;
+
+
+
+class MotorVehicle{
+  private:
+    string fuelType;
+    string marca;
+    int año;
+    string color;
+    int motor;
+  public:
+    MotorVehicle(string,string,int,string,int);
+  };
+
+MotorVehicle::MotorVehicle(string _marca,string _fuelType,int _año, string _color,int _motor)
+int main() {
+
+}
