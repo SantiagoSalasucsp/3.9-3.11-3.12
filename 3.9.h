@@ -15,8 +15,7 @@ void deposit(int depositAmount) {
     }
   }
 void retiro(int retiro){
-  cout<<"si quiere retirar 10, ingrese el numero 1, si quiere 50 el numero 2 y si quiere 100, ingrese el 3";
-  cin>>retiro;
+  
   if (retiro<=balance)
   {cout<<"Ya no puede retirar mas dinero";)}
   switch case 
@@ -47,3 +46,14 @@ std::string getName() const {
 std::string name;
 int balance{0};
 };
+
+int main() {
+  Account account1{"Jane Green", 50};
+  Account account2{"John Blue", -7};
+  
+  cout << "account1: " << account1.getName() << "El balance es:" << account1.getBalance() << endl;
+  cout << "account2: " << account2.getName() << "El balance es:" << account2.getBalance() << endl;
+    
+cout<<"si quiere retirar 10, ingrese el numero 1, si quiere 50 el numero 2 y si quiere 100, ingrese el 3";
+cin>>retiro;
+account1.retiro(retiro)
