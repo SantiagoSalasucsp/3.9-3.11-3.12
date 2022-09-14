@@ -34,4 +34,17 @@ class MotorVehicle
       getmotor() const
     void settiempo(int _tiempo)
       {tiempo=_tiempo}
-      gettiempo() const
+      gettiempo() const};
+
+int main() {
+  cin>> marca;
+  cin>>combustible;
+  cin>>color;
+  cin>>motor;
+  cin>>tiempo;
+
+  cout<<"La marca es:"<<marca<<endl;
+  cout<<"El combustible es:"<<combustible<<endl;
+  cout<<"El color es:"<<color<<endl;
+  cout<<"El motor es:"<<motor<<endl;
+  cout<<"Años:"<<tiempo<<endl;
